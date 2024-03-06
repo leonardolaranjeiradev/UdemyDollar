@@ -19,7 +19,7 @@ public class Program {
 		
 		double resultado = ConversorDeMoeda.dollarParaReal(quantia, precoDollar);
 				
-		System.out.printf("Valor a ser pago em reais = %.2f%n", resultado);
+		System.out.println("Valor a ser pago em reais = ");
 		
 		sc.close();
 	}
