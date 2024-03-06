@@ -9,13 +9,8 @@ public class Program {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Qual é o preço do dólar?");
-		double preco = sc.nextDouble();
 		
-		System.out.println("Quantos dólares serão comprados?");
-		double quantidade = sc.nextDouble();
 		
-		System.out.println("Valor a ser pago em reais = ");
 		
 		sc.close();
 	}
